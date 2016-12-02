@@ -1,6 +1,6 @@
 pkgname=sysbench
 _basever=1.0
-pkgver=1.0.20161202.dd9df28
+pkgver=1.0.20161202.4b0a44c
 pkgrel=1
 pkgdesc="Modular, cross-platform and multi-threaded benchmark tool for evaluating OS parameters that are important for a system running a database under intensive load."
 url="https://github.com/akopytov/sysbench"
