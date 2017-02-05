@@ -1,13 +1,15 @@
+# vim:set ft=sh:
+# Maintainer: BlackEagle < ike DOT devolder AT gmail DOT com >
 pkgname=sysbench
 _basever=1.0
-pkgver=1.0.20170116.be1cf06
+pkgver=1.0.20170205.21d87e7
 pkgrel=1
 pkgdesc="Modular, cross-platform and multi-threaded benchmark tool for evaluating OS parameters that are important for a system running a database under intensive load."
 url="https://github.com/akopytov/sysbench"
 arch=('i686' 'x86_64')
 license=('GPL')
 makedepends=('git')
-depends=('libmysqlclient')
+depends=('libmysqlclient' 'xxd')
 source=("$pkgname::git+https://github.com/akopytov/sysbench.git#branch=$_basever")
 sha256sums=('SKIP')
 
