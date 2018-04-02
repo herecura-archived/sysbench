@@ -2,7 +2,7 @@
 # Maintainer: BlackEagle < ike DOT devolder AT gmail DOT com >
 pkgname=sysbench
 _basever=1.0
-pkgver=1.0.20180401.56b473f
+pkgver=1.0.20180402.8623595
 pkgrel=1
 pkgdesc="Modular, cross-platform and multi-threaded benchmark tool for evaluating OS parameters that are important for a system running a database under intensive load."
 url="https://github.com/akopytov/sysbench"
